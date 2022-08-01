@@ -1,0 +1,7 @@
+c:\cxxtest-4.4\bin\cxxtestgen --error-printer test.h -o test.cpp
+
+g++ bitmap.c test.cpp -o runner.exe
+
+runner.exe
+
+Running cxxtest tests (4 tests)....OK!
